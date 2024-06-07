@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
 # Set up logging
-logging.basicConfig(level=logging.DEBUG)
+# logging.basicConfig(level=logging.DEBUG)
 
 # Function to hash passwords
 def hash_password(password):
