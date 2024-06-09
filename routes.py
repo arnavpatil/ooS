@@ -15,6 +15,7 @@ import sqlite3
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
+app.config['DEBUG'] = False
 
 # Function to hash passwords
 def hash_password(password):
